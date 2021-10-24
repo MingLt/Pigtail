@@ -135,10 +135,7 @@ class Player():
 
     def AIPlay_poker(self, card):  # AI的出牌动作
         self.state = 1
-        print(card)
-        print(1234567)
         click = card[0]
-        print(90898989)
         dicard = ''
         if click == 'S':
             dicard = self.poker_s[-1]
